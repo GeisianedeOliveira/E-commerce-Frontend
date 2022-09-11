@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+li{
+    list-style: none;
+}
+
+body{
+    overflow-x: hidden;
+    width:100%;
+	height:100%;
+}
+
+
+
+
+/*Início do CSS do conteúdo*/
+
+footer {
+    background: linear-gradient(to right, #be2d2d, #FF416C);
+    bottom: 0;
+    display: flex;
+    justify-content: flex-end;
+    height: 68.5px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+/*
+#homeFooter{
+    display: flex;
+    position: fixed;
+    left: 6%;
+    bottom: 3%;
+}
+*/
+
+#homeFooter a{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 12%;
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 80%;
+    font-weight: 700;
+}
+
+
+
+
+
+
+/* TESTANDO */
+
+
+
+
+/* TESTANDO */
+
+
+
+
+
+
+
+
+/* Início media querys*/
+
+@media screen and (max-width:965px) {
+    .item-hamburguer{
+        display: block;
+    }
+    .botoes-navbar {
+        position: absolute;
+        flex-direction: column;
+        top: 0;
+        background: linear-gradient(to right, #cf0d0d -100%, #cc5671);
+        height: 100%;
+        width: 45vw;
+        /* ENTENDER FUNÇÃO ANTES DE APLICAR animation-duration: 1s; */
+        margin-left: -100vw;
+    }
+}
+
+
+@media screen and (max-width:965px){
+    #categorias-navbar ul{
+        position: absolute;
+        flex-direction: column;
+        height: 100%;
+        width: 25%;
+        background-color: #cb3647;
+        margin-top: 30px;
+    }
+    #div-categorias{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    #div-categorias li{
+        height: 10%;
+
+    }
+
+}
+/*ENTENDER MELHOR!*/
+@keyframes showSidebar {
+    from{margin-left: -100vw;}
+    top{margin-left: -10vw;}
+}
+
+@media (max-width:964px){
+    #fileira-1-de-produtos{
+        display: flex;
+        width: 75%;
+    }
+    #teste-teste-teste{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .produtos{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: right;
+    }
+    #teste{
+        width: 47%;
+        min-width: 40%;
+    }
+    #cards img{
+        width: 100%;
+    }
+}
+
+/* Fim media querys*/
