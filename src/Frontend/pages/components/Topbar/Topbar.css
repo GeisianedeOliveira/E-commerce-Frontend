@@ -1,0 +1,39 @@
+
+.navbar{
+    background: linear-gradient(to right, #cf0d0d -100%, #cc5671);
+    height: 4vw;
+}
+
+.navbar-brand{
+    width: 18%;
+}
+
+.navbar-brand img{
+    margin-left: 30px;
+    width: 80%;
+    height: 90%;
+    margin-left: 30px;
+}
+
+.form-inline.my-2.my-lg-0{
+    display: flex;
+    width: 30%;
+    height: 35px;
+}
+
+.btn.btn-outline-success.my-2.my-sm-0{
+    background-color: white;
+    color: black;
+    border: none;
+    margin: -10px;
+}
+
+.collapse.navbar-collapse{
+    display: flex;
+    justify-content: right;
+    margin: 0 30px;
+}
+
+.navbar-nav.mr-auto a{
+    margin: 0 5px;
+}

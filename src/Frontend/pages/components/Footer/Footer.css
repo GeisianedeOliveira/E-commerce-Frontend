@@ -1,0 +1,19 @@
+.footer {
+    height: 250px;
+    width: 100%;
+    background: linear-gradient(to right, #be2d2d, #FF416C);
+    margin-top: 20px;
+
+}
+
+.logo{
+    width: 15%;
+    height: 90%;
+    margin-left: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 100%;
+}

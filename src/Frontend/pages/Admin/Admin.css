@@ -1,0 +1,45 @@
+.box-principal-admin{
+    height: 83vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title-admin{
+    height: 10%;
+    width: 100%;
+}
+
+.box-admin{
+    margin: 0;
+    height: 90%;
+    width: 70%;
+}
+
+.option-admin-group{
+    height: 33.3%;
+    display: flex;
+}
+
+.option-admin-unic{
+    border: solid 3px black;
+    width: 20%;
+}
+
+.option-admin-unic-title{
+    border: solid 3px black;
+    height: 30%;
+}
+
+.option-admin-unic-img{
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.option-admin-unic img{
+    width: 46%;
+    height: 73%;
+    align-items: center;
+}
