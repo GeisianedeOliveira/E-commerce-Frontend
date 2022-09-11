@@ -1,0 +1,69 @@
+.box-principal-finalizar{
+    display: flex;
+    justify-content: center;
+}
+
+.box-finalizar{
+    width: 45%;
+    height: 40vw;
+    margin-top: 20px;
+}
+
+.box-finalizar-logo{
+    background-color:  rgb(194, 36, 86);
+    display: flex;
+    justify-content: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.box-finalizar-logo img{
+    width: 30%;
+}
+
+.box-finalizar-confirmacao{
+    height: 10%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    color: rgb(18, 189, 18);
+}
+
+.box-finalizar-pedido{
+    height: 10%;
+    background-color:  rgb(194, 36, 86);
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    color: white;
+}
+
+.box-finalizar-pix{
+    height: 10%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+}
+
+.box-finalizar-informacoes{
+    height: 48%;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+}
+
+.box-finalizar-informacoes ul{
+    padding: 0;
+}
+
+
+.box-finalizar-rodape{
+    background-color:  rgb(194, 36, 86);
+    height: 7%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}

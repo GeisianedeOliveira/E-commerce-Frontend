@@ -1,0 +1,243 @@
+.box-principal-pagamento{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.box-pagamento-produtos{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+hr{
+    width: 100%;
+    display: flex;
+    align-self: center;
+    margin: 0;
+    color:  rgb(194, 36, 86);
+}
+
+.box-entrega{
+    width: 90%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    border: solid 1px  rgb(194, 36, 86);
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.box-entrega-title{
+    width: 25%;
+}
+
+.box-entrega-conteudo{
+    width: 75%;
+    padding-bottom: 40px;
+} 
+
+.box-entrega-conteudo ul{
+    padding: 0;
+}
+
+
+.box-pagamento{
+    border: solid 1px  rgb(194, 36, 86);
+    width: 90%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    margin: 10px 0px;
+}
+
+.box-pagamento-title{
+    height: 15%;
+}
+
+.box-pagamento-cartão{
+}
+
+.box-pagamento-cartão img{
+    width: 50px;
+    margin: 0px 10px;
+}
+
+
+.box-pagamento-cartão-conteudo{
+    display: flex;
+}
+
+.box-pagamento-boleto{
+}
+
+.box-pagamento-boleto-conteudo{
+    display: flex;
+}
+
+.box-pagamento-boleto-conteudo img{
+    width: 4%;
+    height: 4%;
+    margin: 0px 10px;
+}
+
+.box-pagamento-pix{
+}
+
+.box-pagamento-pix-title{
+
+}
+
+.box-pagamento-pix-conteudo{
+    display: flex;
+}
+
+.box-pagamento-pix-conteudo img{
+    width: 4%;
+    height: 4%;
+    margin: 0px 10px;
+}
+
+.box-itens-comprados{
+    width: 90%;
+    display: flex;
+    padding-top: 20px;
+    border: solid 1px  rgb(194, 36, 86);
+    border-radius: 10px;
+    padding: 15px;
+    margin: 15px 0 5px 0;
+    
+}
+
+.box-itens-comprados-title{
+    width: 23%;
+}
+
+.box-itens-comprados-conteudo{
+    width: 70%;
+    display: flex;
+}
+
+.itens-comprados-imagem{
+    width: 20%;
+}
+
+.itens-comprados-imagem img{
+    width: 100%;
+}
+
+.itens-comprados-produto{
+    width: 75%;
+}
+
+.itens-comprados-produto p{
+    padding-left: 10px;
+}
+
+.select{
+    width: 15%;
+    margin-left: 10px;
+}
+
+.box-pagamento-carrinho{
+    border: solid 1px  rgb(194, 36, 86);
+    border-radius: 10px;
+    width: 20%;
+    height: 400px;
+    margin-top: 10px;
+
+}
+
+.botao-comprar-carrinho{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15%;
+    margin: 25px 0px;
+}
+
+.botao-comprar-carrinho button{
+    background-color: rgb(194, 36, 86);
+    width: 220px;
+    height: 50px;
+    border-radius: 20px;
+    border: none;
+    text-decoration: none;
+    color: white;
+}
+
+.pagamento-carrinho-termos{
+    height: 17%;
+    padding: 0px 25px;
+}
+
+.pagamento-carrinho-termos p{
+    font-size: 11px;
+    text-align: justify;
+}
+
+.pagamento-carrinho-resumo{
+    height: 22%;
+    padding: 0;
+}
+
+.pagamento-carrinho-resumo p{
+    margin: 0;
+    padding-left: 17px;
+    font-weight: 700;
+
+}
+
+
+.carrinho-resumo-conteudo{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.pagamento-carrinho-resumo ul{
+    width: 50%;
+    padding: 5px 17px 0 17px;
+}
+
+.pagamento-carrinho-resumo li{
+    width: 100%;
+    margin: 0;
+}
+
+.right{
+    text-align: right;
+}
+
+.pagamento-carrinho-total{
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pagamento-carrinho-total p{
+    padding:  0 15px;
+}
+
+.pagamento-carrinho-parcelamento{
+    font-size: 12px;
+    padding: 0 0 15px 17px;
+    font-weight: 700;
+    height: 8%;
+}
+
+.pagamento-carrinho-logo{
+    height: 10%;
+    background-color: rgb(194, 36, 86);
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.pagamento-carrinho-logo img{
+    height: 100%;
+}

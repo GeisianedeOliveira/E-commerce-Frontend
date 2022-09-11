@@ -1,0 +1,66 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,800);
+
+.box-principal-sac{
+    height: 83vh;
+    display: flex;
+    justify-content: center;
+}
+
+.box-principal-sac p{
+    color: #be2d2d;
+    font-size: 15px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    margin-left: 15px;
+}
+
+.box-principal-sac h4{
+    text-align: center;
+    color: #be2d2d;
+    margin-top: 60px;
+    margin-bottom: 20px;
+
+}
+
+.box-principal-sac-sac{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.box-principal-sac-mapa{
+    width: 30%;
+}
+
+.input-sac{
+    width: 90%;
+    height: 33px;
+    border-radius: 15px;
+    border: solid 2px #be2d2d;
+    margin-left: 15px;
+}
+
+.input-sac-message{
+    width: 90%;
+    height: 35%;
+    border-radius: 15px;
+    border: solid 2px #be2d2d;
+    margin-left: 15px;
+}
+
+.button-sac{
+    display: flex;
+    justify-content: right;
+}
+
+.button-sac button{
+    width: 120px;
+    height: 30px;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-right: 30px;
+    background-color: #be2d2d;
+    border: none;
+    color: white;
+}

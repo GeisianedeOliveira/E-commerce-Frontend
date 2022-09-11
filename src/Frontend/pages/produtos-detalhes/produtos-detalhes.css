@@ -1,0 +1,156 @@
+.box-principal {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(250, 242, 242);
+}
+
+.box{
+    display: flex;
+    height: 82vh;
+    width: 80%;
+}
+
+.box-produto {
+    width: 70%;
+    height: 95%;
+    margin: 15px 10px;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+}
+
+.box-preco-cep{
+    width: 30%;
+    height: 95%;
+    margin: 15px 10px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.box-preco-cep ul{
+    margin: 30px 0px;
+}
+
+.box-preco-cep li{
+
+}
+
+#envio{
+    font-size: 13px;
+}
+
+.box-botao{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+#big{
+    font-size: 22px;
+    font-weight: 600;
+}
+
+#small {
+    font-size: 14px;
+}
+
+#green{
+    color: #00a650;
+}
+
+.botao-detalhe button{
+    justify-content: center;
+    background-color: rgb(194, 36, 86);
+    color: white;
+    width: 100%;
+    height: 50px;
+    margin: 5px 0px;
+    border-radius: 10px;
+    border: none;
+
+}
+
+.box-produto-image{
+    width: 55%;
+}
+
+.box-produto-image-principal{
+    height: 80%;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+}
+
+
+.box-produto-image-principal img{
+    height: 80%;
+    width: 80%;
+}
+
+.box-produto-image-carrousel{
+    height: 20%;
+    display: flex;
+    align-items: center;
+}
+
+.box-produto-image-carrousel img{
+    height: 85%;
+    width: 100px;
+    margin: 0px 7px;
+    border: solid 1px black;
+}
+
+.box-produto-descrition{
+    width: 45%;
+}
+
+#preço-antigo{
+    text-decoration: line-through;
+}
+
+#preço-antigo h3{
+    text-decoration: line-through;
+    margin: 0;
+}
+
+#preço-atual{
+    display: flex;
+}
+
+#preço-atual h3{
+    margin-left: 16px;
+    margin-top: 0px;
+}
+
+#preço-atual h6{
+    margin-left: -20px;
+    margin-top: 6px;
+    color: #00a650;
+}
+
+#parcelamento{
+    color: #00a650;
+    font-size: 13px;
+}
+
+.box-produto-descrition h3{
+    font-size: 22px;
+    margin-right: 25px;
+    margin-left: 16px;
+    margin-top: 30px;
+}
+
+.box-produto-descrition p{
+    margin: 3px 16px;
+}
+
+.box-produto-descrition ul{
+    margin-top: 30px;
+}
+
+.box-produto-descrition li{
+    list-style: disc;
+    font-size: 14px;
+    margin: 5px 0px;
+    
+}

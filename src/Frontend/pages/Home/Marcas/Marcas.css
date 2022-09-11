@@ -1,0 +1,16 @@
+.cardsMarcas{
+    margin: 5px auto;
+    width: 80%;
+}
+
+.cardsMarcas {
+    display: flex;
+    justify-content: center;
+}
+
+.cards-marcas img{
+    margin: 20px;
+    width: 100px;
+    border-radius: 115px;
+    box-shadow: 0 0 5px rgb(201, 201, 201);
+}

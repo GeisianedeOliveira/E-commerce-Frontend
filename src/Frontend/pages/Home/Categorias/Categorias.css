@@ -1,0 +1,13 @@
+.categorias{
+    display: flex;
+    justify-content: center;
+}
+
+.categorias img{
+    display: flex;
+    justify-content: center;
+    margin: 0; 
+    width: 154px;
+    height: 154px;
+    box-shadow: 0 0 5px rgb(201, 201, 201);
+}
