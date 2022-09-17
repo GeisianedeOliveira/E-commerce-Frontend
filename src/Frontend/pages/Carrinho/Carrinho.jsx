@@ -53,8 +53,7 @@ export function Carrinho (){
                 </div>
                 <div className='box-select'>
                     <select className='select-carrinho' value={quantidade} onChange={(e) => setquantidade(e.target.value)}>
-                        <option selected value="0">00</option>
-                        <option value="1">01</option>
+                        <option selected value="1">01</option>
                         <option value="2">02</option>
                         <option value="3">03</option>
                         <option value="4">04</option>

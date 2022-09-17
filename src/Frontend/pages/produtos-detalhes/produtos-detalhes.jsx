@@ -1,12 +1,16 @@
 
 import React from 'react';
 import './produtos-detalhes.css';
+import { useState } from 'react';
 
 
 export function Detalhes() {
       
+    const [count, setCount] = useState(0);
+
     return (
         <div class="box-principal">
+
             <div class="box">
                 <div class="box-produto">
                     <div class="box-produto-image">
@@ -54,7 +58,7 @@ export function Detalhes() {
                     </ul>
                     <div class="box-botao">
                         <div class="botao-detalhe">
-                            <a href="/Carrinho"><button>Adicionar ao carrinho</button></a>
+                        <a href="/Carrinho"><button  onClick={() => setCount(count + 1)}>Adicionar ao carrinho</button></a>
                             <button>Calcular o frete</button>
                         </div>
                     </div>

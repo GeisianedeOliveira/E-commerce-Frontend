@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react';
 import './Produtos.css';
 import axios from 'axios';
 
-const url = "http://localhost:8081/produtos/all/"
+const url = "https://teste-products.herokuapp.com/products/all"
 
 export function Produtos() {
 
@@ -24,9 +24,11 @@ export function Produtos() {
       return (
         <section  className="conteudo">
             <section className="produtos">
+            <h5 className='h6'>Produtos mais vendidos</h5>
                 <div id="fileira-1-de-produtos">
                     <div id="teste-teste-teste">
                         <div id="teste">
+                            
                             <div className="teste-card" id="cards">
                               <a className="" href={"/Detalhes"}><img src="kindle.jpg" alt=""/></a>                             
                             </div>
@@ -34,10 +36,10 @@ export function Produtos() {
                             <a href="/Detalhes">{product.map(product=><p key={product.id}>{product.produto}</p>)}</a>   
                             </div>
                             <div className="teste-produto">
-                            <a href="/Detalhes">{product.map(product=><p key={product.id}>R$ {product.preco}</p>)} </a>
+                            <a href="/Detalhes"> {product.map(product=><p key={product.id}>R$ {product.preco}</p>)}</a>
                             </div>
                             <div className="teste-cashbak">
-                            <a href="/Detalhes">em 10x de R$38,61 sem juros</a>
+                            <a href="/Detalhes"> {product.map(product=><p key={product.id}>R$ {product.parcelamento}</p>)}</a>
                             </div>
                         </div>
                         <div id="teste">
