@@ -7,7 +7,7 @@ export function Topbar() {
     return (
         <header>
             <nav className="navbar navbar-expand-xl navbar-light">
-            <a className="navbar-brand" href="#/"><img src="Logo.png" alt=""/></a>
+            <a className="navbar-brand" href="/"><img src="Logo.png" alt=""/></a>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
             </button>
