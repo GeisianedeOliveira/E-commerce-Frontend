@@ -46,9 +46,9 @@ export function Produtos() {
                             <div className="teste-card" id="cards">
                                 <img src="ar.jpg" alt=""/>                            
                             </div>
-                            <div className="teste-preço"></div>
-                            <div className="teste-produto"></div>
-                            <div className="teste-cashbak"></div>
+                            <div className="teste-preço">Ar Condicionado Split LG 9.000 Btus</div>
+                            <div className="teste-produto">R$ 1.699,00</div>
+                            <div className="teste-cashbak">ou 10 vezes de R$ 169,90</div>
                         </div>
                         <div id="teste">
                             <div className="teste-card" id="cards">
