@@ -78,7 +78,7 @@ export function Produtos() {
                             <div className="teste-card" id="cards">
                                 <img src="notebook.jpg" alt=""/>                            
                             </div>
-                            <div className="teste-preço"Notebook Dell Inspiron</div>
+                            <div className="teste-preço">Notebook Dell Inspiron</div>
                             <div className="teste-produto">R$ 2.564,10</div>
                             <div className="teste-cashbak">ou 10 vezes de R$ 256,41</div>
                         </div>
