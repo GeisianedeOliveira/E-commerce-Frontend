@@ -1,7 +1,12 @@
-.h6{
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,800);
+
+.Titlep{
     text-align: left;
     margin-left: 73px;
     padding-top: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 }
 
 #fileira-1-de-produtos{

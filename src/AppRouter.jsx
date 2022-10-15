@@ -14,7 +14,7 @@ import { Faleconosco } from './Frontend/pages/Fale_conosco/faleconosco'
 import { Admin } from './Frontend/pages/Admin/Admin'
 import { Detalhes } from './Frontend/pages/produtos-detalhes/produtos-detalhes';
 import { Pagamento } from './Frontend/pages/Pagamento/pagamento'
-import { Finalizar } from './Frontend/pages/FinalizarCompra/finalizarCompra' 
+import { Finalizar } from './Frontend/pages/FinalizarCompra/finalizarCompra'
 
 
 function AppRouter() {

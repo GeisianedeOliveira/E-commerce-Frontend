@@ -11,12 +11,12 @@ export function Topbar() {
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
             </button>
-            {/*
-            <form className="form-inline my-2 my-lg-0">
-                <input className="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Searc"/>
-                <button className="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
-            </form>
-            */}
+            {
+            <div className='search'>
+                <input className="searchImput" type="search" placeholder="Buscar produto, marcas, e muito" aria-label="Searc"/>
+                <button className="searchButton" type="submit">Pesquisar</button>
+            </div>
+            }
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul className="navbar-nav mr-auto">
                 <li className="nav-item active">

@@ -1,6 +1,7 @@
 import React from 'react';
 import { Carrosel } from '../Home/Carrosel/Carrosel';
 import { Produtos } from '../Home/Produtos/Produtos';
+import { Produtos1 } from '../Home/Produtos1/Produtos1';
 import { Marcas } from '../Home/Marcas/Marcas';
 import { Banner } from '../Home/Banner/Banner';
 import { Categorias } from '../Home/Categorias/Categorias';
@@ -13,6 +14,7 @@ export function Home() {
       <React.Fragment>
         <Carrosel />
         <Produtos />
+        <Produtos1 />
         <Marcas />
         <Banner />
         <Categorias />

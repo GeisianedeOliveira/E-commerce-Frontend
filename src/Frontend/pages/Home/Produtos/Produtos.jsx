@@ -24,7 +24,7 @@ export function Produtos() {
       return (
         <section  className="conteudo">
             <section className="produtos">
-            <h5 className='h6'>Produtos mais vendidos</h5>
+            <p className='Titlep'>Produtos mais vendidos</p>
                 <div id="fileira-1-de-produtos">
                     <div id="teste-teste-teste">
                         <div id="teste">
