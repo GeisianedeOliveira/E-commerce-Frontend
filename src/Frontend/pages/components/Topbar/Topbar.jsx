@@ -13,7 +13,7 @@ export function Topbar() {
             </button>
             {
             <div className='search'>
-                <input className="searchImput" type="search" placeholder="Buscar produto, marcas, e muito" aria-label="Searc"/>
+                <input className="searchImput" type="search" placeholder="Buscar produto, marcas, e muito mais..." aria-label="Searc"/>
                 <button className="searchButton" type="submit">Pesquisar</button>
             </div>
             }

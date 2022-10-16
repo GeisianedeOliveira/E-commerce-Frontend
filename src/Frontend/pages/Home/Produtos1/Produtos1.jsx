@@ -27,59 +27,58 @@ export function Produtos1() {
                 <div id="fileira-1-de-produtos">
                     <div id="teste-teste-teste">
                         <div id="teste">
-                            
                             <div className="teste-card" id="cards">
-                              <a className="" href={"/Detalhes"}><img src="kindle.jpg" alt=""/></a>                             
+                              <a className="" href={"/Detalhes"}><img src="TvSamsung.jpg" alt=""/></a>                             
                             </div>
                             <div className="teste-preço">
-                            <a href="/Detalhes">{product.map(product=><p key={product.id}>{product.produto}</p>)}</a>   
+                            <a>Smart TV Samsung LED 4K 50"</a>   
                             </div>
                             <div className="teste-produto">
-                            <a href="/Detalhes"> {product.map(product=><p key={product.id}>R$ {product.preco}</p>)}</a>
+                            <a>R$ 2.588,00 </a>
                             </div>
                             <div className="teste-cashbak">
-                            <a href="/Detalhes"> {product.map(product=><p key={product.id}>R$ {product.parcelamento}</p>)}</a>
+                            <a>ou 10x R$ 258,80 sem juros</a>
                             </div>
                         </div>
                         <div id="teste">
                             <div className="teste-card" id="cards">
-                                <img src="ar.jpg" alt=""/>                            
+                                <img src="Cock.jpg" alt=""/>                            
                             </div>
-                            <div className="teste-preço">Ar Condicionado LG 9.000 Btus</div>
-                            <div className="teste-produto">R$ 1.699,00</div>
-                            <div className="teste-cashbak">ou 10 vezes de R$ 169,90</div>
+                            <div className="teste-preço">Fogão cooktop gás Itatiaia</div>
+                            <div className="teste-produto">R$ 449,00</div>
+                            <div className="teste-cashbak">ou 10 vezes de R$ 44,90 sem juros</div>
                         </div>
                         <div id="teste">
                             <div className="teste-card" id="cards">
-                                <img src="maquina.jpeg" alt=""/>                            
+                                <img src="Stereo.jpg" alt=""/>                            
                             </div>
-                            <div className="teste-preço">Máquina Brastemp 12kg</div>
-                            <div className="teste-produto">R$ 1.669,15</div>
-                            <div className="teste-cashbak">ou 10 vezes de R$ 169,91</div>
+                            <div className="teste-preço">Alto-falante Mondial CM-400</div>
+                            <div className="teste-produto">R$ 509,00</div>
+                            <div className="teste-cashbak">ou 10 vezes de R$ 50,90 sem juros</div>
                         </div>
                         <div id="teste">
                             <div className="teste-card" id="cards">
-                                <img src="fone.jpeg" alt=""/>                            
+                                <img src="Aspirador.jpg" alt=""/>                            
                             </div>
-                            <div className="teste-preço">Fone de ouvido Airdots</div>
-                            <div className="teste-produto">R$ 199,90</div>
-                            <div className="teste-cashbak">ou 10 vezes de R$ 19,90</div>
+                            <div className="teste-preço">Aspirador de pó Wap High Speed</div>
+                            <div className="teste-produto">R$ 143,10</div>
+                            <div className="teste-cashbak">ou 6 vezes de R$ 23,85</div>
                         </div>
                         <div id="teste">
                             <div className="teste-card" id="cards">
-                                <img src="geladeira.jpg" alt=""/>                            
+                                <img src="Alexa.jpg" alt=""/>                            
                             </div>
-                            <div className="teste-preço">Geladeira Brastemp Frost Free</div>
-                            <div className="teste-produto">R$ 3.049,00</div>
-                            <div className="teste-cashbak">ou 10 vezes de R$ 304,90</div>
+                            <div className="teste-preço">Amazon Echo Dot 3rd Gen</div>
+                            <div className="teste-produto">R$ 267,00</div>
+                            <div className="teste-cashbak">ou 8 vezes de R$ 33,38</div>
                         </div>
                         <div id="teste">
                             <div className="teste-card" id="cards">
-                                <img src="notebook.jpg" alt=""/>                            
+                                <img src="Liquidificador.jpg" alt=""/>                            
                             </div>
-                            <div className="teste-preço">Notebook Dell Inspiron</div>
-                            <div className="teste-produto">R$ 2.564,10</div>
-                            <div className="teste-cashbak">ou 10 vezes de R$ 256,41</div>
+                            <div className="teste-preço">Liquidificador portátil Mondial</div>
+                            <div className="teste-produto">R$ 109,95</div>
+                            <div className="teste-cashbak">ou 3 vezes de R$ 36,65</div>
                         </div>
                     </div>
 

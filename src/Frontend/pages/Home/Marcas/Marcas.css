@@ -1,14 +1,46 @@
+/*
+Teste:
+*/
+.navbar-navmr-auto li{
+    color: white;
+}
+
+.nav-item.active a{
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link a{
+    color: white;
+}
+
+.titleMarcas{
+    text-align: left;
+    width: 100%;
+}
+
+.sectionMarcas{
+    padding: 0 450px;
+}
+
+
 .conteudo-marcas{
     margin-top: 30px;
+    width: 100%;
 }
 
 
 .cardsMarcas{
     margin: -15px auto;
-    width: 80%;
+    width: 100%;
 }
 
-.cardsMarcas {
+.cardsMarcas{
+    display: flex;
+    justify-content: center;
+}
+
+.cards-marcas{
+    width: 100%;
     display: flex;
     justify-content: center;
 }

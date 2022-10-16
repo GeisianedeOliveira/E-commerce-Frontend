@@ -3,7 +3,7 @@ import './Banner.css'
 
 export function Banner() {
     return (
-        <section>
+        <section className='sectionBanner'>
             <div id="banner">
                 <div className="banner">
                     <img src="Minibanner.jpg" alt=""/>

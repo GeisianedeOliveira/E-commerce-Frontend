@@ -3,7 +3,7 @@ import './Marcas.css'
 
 export function Marcas() {
     return (
-        <section>
+        <section className='sectionMarcas'>
             <div className="conteudo-marcas">
                 <div className="cardsMarcas">
                     <div className="cards-marcas"><img  src="samsung.png" alt=""/></div>

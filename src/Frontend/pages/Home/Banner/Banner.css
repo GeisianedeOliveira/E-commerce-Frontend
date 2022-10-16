@@ -1,3 +1,7 @@
+.sectionBanner{
+    width: 100%;
+}
+
 #banner{
     display: flex;
     justify-content: center;
@@ -7,6 +11,6 @@
 #banner img{
     margin: 40px;
     box-shadow: 0 0 15px rgb(201, 201, 201);
-    width: 500px;
+    width: 85%;
     height: 300px;
 }
